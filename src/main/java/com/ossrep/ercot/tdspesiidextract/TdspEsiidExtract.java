@@ -14,7 +14,8 @@ public class TdspEsiidExtract {
     public static final int REPORT_ID = 203;
 
     public enum TDSP {
-        CENTERPOINT
+        CENTERPOINT, ONCOR_ELEC, SWEPCO_ENERG, NUECES_ELEC, TNMP,
+        AEP_CENTRAL, AEP_NORTH, AEP_TEXAS_SP, SHARYLAND_UTILITIES, SHARYLAND_MCALLEN
     }
 
     public static TdspEsiidExtractReport fetchLatest(TDSP tdsp) {
